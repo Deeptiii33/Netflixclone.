@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100%;
+	height: 100vh;
+	position: relative;
+	background: url('images/background2.jpg') no-repeat center center/cover;
+    box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
+}
+
+.logo img{
+    width: 9%;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.container{
+    position: absolute;
+    margin-left: 36%;
+    margin-top: 1%;
+    width: 440px;
+    height: 610px;
+    background-color: #000;
+    opacity: 0.9;
+}
+
+.container h1{
+    color: #fff;
+    margin-top: 60px;
+    margin-left: 50px;
+}
+
+input{
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 320px;
+    height: 50px;
+    background-color: #333;
+    border-radius: 3px;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    padding: 0 20px;
+}
+
+input::placeholder{
+    font-size: 17px;
+    margin-left: 15px;
+    padding: 12px;
+}
+
+input[type=submit]{
+    width: 360px;
+    height: 45px;
+    background-color: red;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+
+.or {
+    text-align: center;
+    margin: 15px 0;
+    color: #ccc;
+    margin-bottom: 3px;
+  }
+
+.code {
+    width: 320px;
+    height: 45px;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 50px;
+    text-align: justify;
+
+}
+
+input[type=checkbox]{
+    margin-top: 20px;
+    width: 20px;
+    height: 18px;
+    border-radius: 5px;
+}
+
+label{
+    color: rgb(125, 119, 119);
+}
+
+.form a{
+    float: right;
+    margin-top: 24px;
+    margin-right: 64px;
+    color: rgb(125, 119, 119);
+    text-decoration: none;
+}
+
+.content{
+    position: absolute;
+    margin-top: 50px;
+    font-size: 9px;
+    margin-left: 55px;
+}
+.text-blue{
+    color: blue;
+}
+
+.content h2{
+    color: rgb(125, 119, 119);
+}
+
+.container a{
+    color: #fff;
+    text-decoration: none;
+}
